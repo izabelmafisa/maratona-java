@@ -1,4 +1,4 @@
-package modificadorestatico;
+package blocos.inicializacao;
 
 public class Carro {
     private String nome;
