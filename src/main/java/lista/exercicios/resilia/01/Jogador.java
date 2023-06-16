@@ -1,6 +1,6 @@
 package lista.de.exercicio.resilia;
 
-public class Jogador extends Personagem {
+public class Jogador extends lista.de.exercicio.resilia.Personagem {
     private int nivel;
 
     public Jogador(String nome, int vida, int nivel) {
