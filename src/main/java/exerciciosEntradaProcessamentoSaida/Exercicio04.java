@@ -1,4 +1,4 @@
-package exercicios03Lista;
+package exerciciosEntradaProcessamentoSaida;
 //Ler quatro valores numéricos inteiros e apresentar o resultado dois a dois da adição e multiplicação entre os
 //valores lidos, baseando-se na utilização do conceito de propriedade distributiva. Dica: se forem lidas as variáveis
 //A, B, C e D, devem ser somados e multiplicados os valores de A com B, A com C e A com D; depois B com C, B
