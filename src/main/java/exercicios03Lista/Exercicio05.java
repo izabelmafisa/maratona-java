@@ -6,6 +6,24 @@ package exercicios03Lista;
 //fórmula: LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade média,
 //tempo gasto, a distância percorrida e a quantidade de litros utilizada na viagem. Dica: trabalhe com valores reais.
 
-public class Exercicio05 {
+import java.util.Scanner;
 
+public class Exercicio05 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Insira o tempo de viagem: ");
+        double tViagem= scanner.nextDouble();
+        System.out.println("Insira a velocidade média: ");
+        double velocidadeMedia= scanner.nextDouble();
+        double distanciaPecorrida = tViagem*velocidadeMedia;
+        double litrosUsados = distanciaPecorrida/12;
+
+        System.out.println("Você percorreu: "+distanciaPecorrida+" Km/h");
+        System.out.println("-------------");
+        System.out.println("No tempo: "+tViagem+" horas");
+        System.out.println("-----------");
+        System.out.println("Sua velocidade média foi: "+velocidadeMedia+" Km");
+        System.out.println("-----------");
+        System.out.println("e usou um total de litros: "+litrosUsados+" Litros");
+    }
 }
